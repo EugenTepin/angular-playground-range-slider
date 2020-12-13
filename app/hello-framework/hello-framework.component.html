@@ -1,0 +1,7 @@
+<div class="slider">
+	<div class="control min-control" [class.active]="minActive" (mousedown)="activate('min')"
+		(mouseup)="deactivate('min')"></div>
+	<div class="control max-control" [class.active]="maxActive" (mousedown)="activate('max')"
+		(mouseup)="deactivate('max')"></div>
+	<div class="slide"></div>
+</div>
